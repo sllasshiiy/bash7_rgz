@@ -5,6 +5,12 @@
 
 import pytest
 import math
+import sys
+import os
+
+# Добавляем src в путь для импорта
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
 from quadratic_solver import calculate_discriminant, solve_quadratic
 
 
