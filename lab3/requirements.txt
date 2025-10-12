@@ -1,6 +1,4 @@
-```powershell
-notepad requirements.txt
-pytest
+﻿pytest
 pytest-cov
-flake8
 bandit
+flake8
