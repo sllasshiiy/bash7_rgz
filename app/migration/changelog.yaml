@@ -1,0 +1,6 @@
+﻿- id: 1
+  file_path: "migrations/001_create_tables.sql"
+- id: 2  
+  file_path: "migrations/002_create_migrations_log_table.sql"
+- id: 3
+  file_path: "migrations/003_add_audit_columns.sql"
