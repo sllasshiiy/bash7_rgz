@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+ï»¿name: CI/CD Pipeline
 
 on:
   push:
@@ -48,7 +48,7 @@ jobs:
         DATABASE_URL: postgresql://test_user:test_password@localhost:5432/test_db
         SECRET_KEY: test-secret-key
       run: |
-        # Ñîçäàäèì ïðîñòîé òåñò åñëè íåò tests/
+        # Ð¡Ð¾Ð·Ð´Ð°Ð´Ð¸Ð¼ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ð¹ Ñ‚ÐµÑÑ‚ ÐµÑÐ»Ð¸ Ð½ÐµÑ‚ tests/
         if [ ! -d "tests" ]; then
           echo "import pytest" > test_sample.py
           echo "def test_sample():" >> test_sample.py
@@ -74,3 +74,4 @@ jobs:
         echo "? All tests passed"
         echo "? Security scan completed"
         echo "?? Application is ready for deployment"
+
