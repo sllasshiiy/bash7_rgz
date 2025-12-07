@@ -1,4 +1,0 @@
-﻿pytest
-pytest-cov
-bandit
-flake8

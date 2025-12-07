@@ -1,9 +1,0 @@
-﻿[flake8]
-max-line-length = 100
-exclude = .git,__pycache__,build,dist,.venv,venv,migrations,.eggs
-ignore = E203,W503,E501,C901
-select = E,W,F,C
-max-complexity = 10
-format = default
-show-source = True
-statistics = True
